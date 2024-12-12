@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height:100vh;
+    background-color: pink;
+    color: black;
+}
+
+.sigma{
+    border: 1px solid red;
+    background-color: aqua;
+    display :flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+#sigmaalfa{
+    background-color:beige ;
+}
+
+.sigma div{
+     
+}
+
+
+/*
+margin = remover margem, a div so se mexe normalmente usa %
+padding = ele cresce a div , e empurra outras divs remover paddin inicial e a margin normalmente usa %
+box-sizing : border-box; = ela respeita o div dominante
+height = altura do site, usar vh ex 100vh
+width = largura do site usar %
+background color= mudar cor do fundo
+min heigth = se o elemento filho for maior que ele faz ele crescer
+color = muda cor da fonte 
+border : sintaxe = tamanho em pixel, formato da borda ex: solid, cor
+display: flex = coloca as div filhas uma do lado da outra e de um arsenal de alinhamentos 
+flex-direction: -se usar row linhas ou column em colunas
+justify-content = alinha o texto horizintal ex justify-content: center (precisa do display flex pra usar);
+align-items = alinha o texto na vertical ex align-items: center (precisa do display flex pra usar);
+gap = da espaçamento entra as div filha (precisa do display flex pra usar)
+*/
+
