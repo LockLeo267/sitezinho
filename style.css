@@ -1,32 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body{
-    min-height:100vh;
-    background-color: pink;
-    color: black;
-}
-
-.sigma{
+header{
     border: 1px solid red;
-    background-color: aqua;
-    display :flex ;
+    display: flex;
+
+}
+
+.yasuo{
+    height: 10vh;
+    width: 20%;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 500px;
+}
+ 
+.yasuo div{
+    height: 10vh;
+    width:  80% ;
+    
 }
 
-#sigmaalfa{
-    background-color:beige ;
+.yasuo div img{
+    width:  100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-.sigma div{
-     
-}
+nav{
+    height: 10vh;
+    width: 70%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+    
+;}
+
 
 
 /*
@@ -44,5 +60,6 @@ flex-direction: -se usar row linhas ou column em colunas
 justify-content = alinha o texto horizintal ex justify-content: center (precisa do display flex pra usar);
 align-items = alinha o texto na vertical ex align-items: center (precisa do display flex pra usar);
 gap = da espaçamento entra as div filha (precisa do display flex pra usar)
+para chamar uma classe se usa . ex .sigma para chamar um id usa #
 */
 
