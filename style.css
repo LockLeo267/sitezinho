@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+
 }
 
 header{
@@ -54,7 +56,7 @@ nav a{
 
 .carrosel{
     height: 90vh;
-    border: 1px solid red;
+    
     
 }
 
@@ -69,7 +71,7 @@ nav a{
     
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,8 +94,6 @@ nav a{
 .textos{
     width: 30%;
     height: 40vh;
-    
-  
     justify-content: center;
     align-items: center;
     
@@ -101,7 +101,6 @@ nav a{
 
 .texto1{
     width: 100%;
- 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,25 +121,135 @@ nav a{
 .botaodomal{
     width: 100%;
     height: 5vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .botaodomal button{
-    width: 50%;
-    height: 5vh;
+    width: 455px;
+    height: 83.95px;
+    gap: 0px;
+    border-radius: 23px;
+    opacity: 0px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+
 }
 
-#SOBRE{
+.SOBRE{
     height: 100vh;
     width: 100%;
-    border: 1px solid red;
+   
     display: flex;
+    background-color: #A2BEDC;
+}
+
+.hist{
+    height: 100vh;
+    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ABEFF4;
+    gap: 45px;
+}
+
+.nossahistoria{
+    height: 15vh;
+    width: 80%;
+    font-size: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: #042440;
+
+}
+
+.textao{
+    width: 50%;
+    height: 80vh;
+    color: #042440;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.traço{
+    width: 100%;
+    height: 1px;
+    font-size: 1px;
+}
+
+.traço div{
+    width: 50%;
+    height: 1px;
+    border-bottom: 2px solid black;
+}
+
+.ocupa{
+    width: 15%;
+}
+
+.cards{
+    height: 100vh;
+    width: 35%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.card-1{
+    width: 60%;
+    height: 25vh;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #6B94C1;
+    border-radius: 25px;
+}
+
+.card-1-image{
+    width: 30%;
+    height: 35%;
+    
+    
+}
+.card-1-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-1-pala{
+    width: 95%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+.card-1-texto{
+    width: 100%;
+    height: 15vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1-texto div{
+    width: 90%;
+    height: 11vh;
+    
+    font-size: 10px;
 }
 
 
@@ -162,5 +271,8 @@ justify-content = alinha o texto horizintal ex justify-content: center (precisa 
 align-items = alinha o texto na vertical ex align-items: center (precisa do display flex pra usar);
 gap = da espaçamento entra as div filha (precisa do display flex pra usar)
 para chamar uma classe se usa . ex .sigma para chamar um id usa #
+justify-content: space-around = espaça igualmente dentro da div mais voltado pro centro
+justify-content: space-between = joga pras extremidades
+
 */
 
